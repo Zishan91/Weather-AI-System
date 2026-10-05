@@ -46,7 +46,7 @@ export default function Home() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/predict/weather",
+        "https://weather-ai-system.onrender.com/predict/weather",
         {
           method: "POST",
           headers: {
@@ -81,7 +81,7 @@ export default function Home() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:8000/predict/aqi",
+       "https://weather-ai-system.onrender.com/predict/aqi",
         {
           method: "POST",
           headers: {
